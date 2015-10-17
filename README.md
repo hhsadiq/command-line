@@ -4,9 +4,12 @@ A collection of commands which I used to configure server. Just for a backup and
 # Step by step guide to install first website on digital ocean with LEMP stack
 
 Insatll LEMP stack
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
+https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04
+
 
 # Digital ocean
-https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
+
 ```shell
 cd /var/www/html
 sudo chown -R www-data:www-data /var/www/example.com/public_html
