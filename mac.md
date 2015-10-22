@@ -16,3 +16,12 @@ Cope file to clipboard
 ```shell
 cat fileNmae | pbcopy
 ```
+
+Add aliases
+
+```shell
+vi ~/.bash_profile
+
+alias cdhs='cd ~/Homestead' #Add this in .bash_profile
+```
+
