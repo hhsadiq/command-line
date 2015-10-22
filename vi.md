@@ -7,4 +7,3 @@ For MacVim and Windows Gvim, simply add the following to your ~/.vimrc:
 set clipboard=unnamed
 ```
 Now all operations such as yy, D, and P work with the clipboard. No need to prefix them with "* or "+.
-
