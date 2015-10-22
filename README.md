@@ -39,5 +39,6 @@ CLIP < filename #copeis the content of file to clipboard
 
 
 الحمد للہ۔ آج تقریبا دو ہفتے کی محنت کے بعد میں پہلی ویب سائٹ کو لائیو کرسکا ہو۔
+
 5:59PM 17oct 2015
 Digital ocean droplet, from lemp stack to launch of first site.
