@@ -22,6 +22,5 @@ Add aliases
 ```shell
 vi ~/.bash_profile
 
-alias cdhs='cd ~/Homestead' #Add this in .bash_profile
+alias vag='cd ~/Homestead; vagrant up; vagrant ssh; cd Code;' #Add this in .bash_profile
 ```
-
