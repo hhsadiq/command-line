@@ -15,8 +15,8 @@ cd /var/www/html
 sudo chown -R www-data:www-data /var/www/example.com/public_html
 sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com #symlink
 sudo rm /etc/nginx/sites-enabled/default
-
 ```
+
 # Vagrant
 ```shell
 vagrant init #initialize vagrant in new directory
