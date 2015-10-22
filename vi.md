@@ -1,6 +1,6 @@
 #Vi-vim
 
-###Vim: copy selection to OS X clipboard
+###Copy selection to OS X clipboard
 For MacVim and Windows Gvim, simply add the following to your ~/.vimrc:
 
 ```shell

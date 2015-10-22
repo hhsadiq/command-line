@@ -1,4 +1,4 @@
-#Mac specific commands
+#Mac commands
 
 ###run .sh file
 To run a non-executable sh script, use:
