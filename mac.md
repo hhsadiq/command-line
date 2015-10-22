@@ -10,3 +10,9 @@ To run a non-executable bash script, use:
 ```shell
 bash myscript
 ```
+
+Cope file to clipboard
+
+```shell
+cat fileNmae | pbcopy
+```

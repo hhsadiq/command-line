@@ -11,4 +11,11 @@ ls -l --block-size=M #listing with file sizes in MB
 mv /home/user/oldname /home/user/newname
 
 ssh-keygen -t rsa -f generate_file_name
+
+ls -la #listting with hidden files
+
+ls
+
+ll
+
 ```
