@@ -85,6 +85,8 @@ Exit vi mode and reload settings using this command
 Aliases in my mac
 
 ```shell
+alias #listing of defined aliases
+unalias ALIAS_NAME #remove already defined alias
 alias vagrant='cd ~/Homestead && vagrant up && vagrant ssh && cd Code'
 alias als='vi ~/.bash_profile'
 alias h='cd ~'
