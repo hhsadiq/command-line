@@ -154,3 +154,15 @@ Now all operations such as yy, D, and P work with the clipboard. No need to pref
 
 ###Update your vim using homebrew
 the vim shipped with mac is not latest and is not compiled without clipboard support. So install the latest using homebrew.
+
+###Windows bootloader recovery
+I am dual booting with win8 and deleted the partition from it. After restarting I get the grub rescue prompt I tried to run Ubuntu off of a flashdrive and supergrub2 but neither worked and it went right back to rescue grub
+That once happened to me. You need to put Windows 8 installation disc in your computer and start it. Then you go to repair system and to more options and select command prompt. Then, type the following commands: .
+
+```
+bootrec /WriteMbr
+bootrec /Fixboot
+bootrec /Fixmbr
+```
+
+It will probably say that it couldn't find any windows systems but that's normal - it will be fixed. THIS WILL DELETE GRUB AND INSTALL WINDOWS BOOTLOADER!
