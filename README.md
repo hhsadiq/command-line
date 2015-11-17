@@ -1,6 +1,6 @@
 #One stop shop for my commands
 
-Every single command which I type in command line, is replicated here. It is one stop shop to keep track of my used commands.
+Most commonly used commands.
 
 # server-configurations
 A collection of commands which I used to configure server. Just for a backup and common place to look in future.
@@ -54,7 +54,7 @@ CLIP < filename #copeis the content of file to clipboard
 
 ###Open file in editor
 ```shell
-open -a #TextEdit filename should do the trick.
+open -a TextEdit #filename should do the trick.
 ```
 
 The -a flag specifies any application you want, so it's applicable to any number of situations, including ones where TextEdit isn't the default editor.
@@ -136,6 +136,8 @@ tar czf home.tar.gz home/ #tar gz compression
 tar xf file.tar #extract files
 
 unzip file.zip -d destination_folder #sudo apt-get install unzip
+
+du -sh #check size of current directory
 
 ls -l --block-size=M #listing with file sizes in MB
 
