@@ -50,6 +50,20 @@ CLIP < filename #copeis the content of file to clipboard
 
 #Mac commands
 
+###Open file in editor
+```shell
+open -a #TextEdit filename should do the trick.
+```
+
+The -a flag specifies any application you want, so it's applicable to any number of situations, including ones where TextEdit isn't the default editor.
+
+Other relevant options
+
+```shell
+-t #opens in the default editor (i.e. if you use BBEdit, TextMate, etc.)
+-e #will open the file specifically in TextEdit
+```
+
 ###run .sh file
 To run a non-executable sh script, use:
 
@@ -95,6 +109,7 @@ alias art='php artisan'
 alias migrate='php artisan migrate'
 alias mc='php artisan make:controller'
 alias mms='php artisan make:migration:schema'
+alias edit='open -a TextEdit'
 ```
 
 ###Install homebrew
@@ -136,7 +151,7 @@ ll
 ```shell
 vagrant init #initialize vagrant in new directory
 vagrant up
-vagrant reload --prvision #run this after updating yaml file
+vagrant reload --provision #run this after updating yaml file
 vagrant ssh
 php -i | grep php.ini #search file path in system
 ```
