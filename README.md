@@ -15,6 +15,8 @@ https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-s
 # Digital ocean
 
 ```shell
+ssh -p 1234 user@host
+scp -P 22169 -o "PubkeyAuthentication no" ~/local/path/file.zip root@178.62.149.32:/var/www/sites
 cd /var/www/html
 sudo chown -R www-data:www-data /var/www/example.com/public_html
 sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com #symlink
@@ -132,6 +134,8 @@ These commands can be used on any unix based system.
 tar czf home.tar.gz home/ #tar gz compression
 
 tar xf file.tar #extract files
+
+unzip file.zip -d destination_folder #sudo apt-get install unzip
 
 ls -l --block-size=M #listing with file sizes in MB
 
