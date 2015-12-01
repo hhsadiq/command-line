@@ -11,6 +11,17 @@ Insatll LEMP stack
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04
 
+#XAMPP
+add virtual hosts in xampp apache
+
+hosts
+127.0.0.1 something.com
+
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/something"
+    ServerName something.com
+</VirtualHost>
 
 # Digital ocean
 
