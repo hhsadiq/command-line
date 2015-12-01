@@ -116,7 +116,8 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 ```
 That example would add ~/.composer/vendor/bin to the PATH. The $PATH part is important as it appends the existing PATH to preserve it in the new value.
 
-
+###Strange quotes of textedit
+while editing bash_profile or path variable always use ' . The default textedit inserts ‘ which will cause errors. Similar is the case of double quotes.
 ###Alias collection
 Aliases in my mac
 
