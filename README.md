@@ -97,6 +97,15 @@ Exit vi mode and reload settings using this command
 . ~/.bash_profile
 ```
 
+###Add a path in $PATH
+
+Add the following line to the end of the file adding whatever additional directory you want in your path:
+
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+That example would add ~/.composer/vendor/bin to the PATH. The $PATH part is important as it appends the existing PATH to preserve it in the new value.
+
+
 ###Alias collection
 Aliases in my mac
 
@@ -159,6 +168,7 @@ vagrant init #initialize vagrant in new directory
 vagrant up
 vagrant reload --provision #run this after updating yaml file
 vagrant ssh
+vagrant halt #This command shuts down the running machine Vagrant is managing
 php -i | grep php.ini #search file path in system
 ```
 Do not install npm and gulp on vagrant homestead, instead install it on local maching. The installation on vagrant does not work.
