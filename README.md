@@ -111,9 +111,9 @@ Exit vi mode and reload settings using this command
 ###Add a path in $PATH
 
 Add the following line to the end of the file adding whatever additional directory you want in your path:
-
+```shell
 export PATH="$HOME/.composer/vendor/bin:$PATH"
-
+```
 That example would add ~/.composer/vendor/bin to the PATH. The $PATH part is important as it appends the existing PATH to preserve it in the new value.
 
 
