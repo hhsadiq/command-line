@@ -113,10 +113,28 @@ That example would add ~/.composer/vendor/bin to the PATH. The $PATH part is imp
 
 ###Strange quotes of textedit
 while editing bash_profile or path variable always use ' . The default textedit inserts ‘ which will cause errors. Similar is the case of double quotes.
-###Alias collection
+###bash_profile aliases
 Aliases in my mac
 
 ```shell
+alias sudo='sudo '
+alias su='su '
+alias art='php artisan'
+alias edit='open -a PhpStorm'
+alias vg='cd ~/Homestead && vagrant up && vagrant ssh && cd Code'
+alias vgrl='vagrant reload --provision'
+alias als='vi ~/.bash_profile'
+alias h='cd ~'
+alias bashrl='. ~/.bash_profile'
+alias bashedit='edit ~/.bash_profile'
+alias hostsedit='sudo vi /etc/hosts'
+alias yamledit='edit ~/.homestead/Homestead.yaml'
+alias vgalsedit='edit ~/.homestead/aliases'
+```
+
+###Generic aliases
+```shell
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 alias #listing of defined aliases
 unalias ALIAS_NAME #remove already defined alias
 alias vagrant='cd ~/Homestead && vagrant up && vagrant ssh && cd Code'
@@ -128,6 +146,20 @@ alias migrate='php artisan migrate'
 alias mc='php artisan make:controller'
 alias mms='php artisan make:migration:schema'
 alias edit='open -a TextEdit'
+```
+
+### ~/.homestead/aliases
+```shell
+alias ..="cd .."
+alias ...="cd ../.."
+alias h='cd ~'
+alias c='clear'
+alias art='php artisan'
+alias load=‘composer dump-autoload’
+alias artm=‘php artisan make’ 
+alias phpspec='vendor/bin/phpspec'
+alias phpunit='vendor/bin/phpunit'
+alias serve=serve-laravel
 ```
 
 ###Install homebrew
