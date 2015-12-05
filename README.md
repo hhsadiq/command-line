@@ -56,7 +56,7 @@ git status
 CLIP < filename #copeis the content of file to clipboard
 ```
 
-How to add aliases for git bash windows
+###How to add aliases for git bash windows
 
 When you open up your Git Bash, you should be by default in your home directory. Now create the .bashrc file (if on Win7 the file should be named .bashrc.). If you're not in the home directory change into it with:
 
@@ -77,6 +77,15 @@ Exit the insert mode with ESC. And save-then-close your file with the following 
 Finally source the file our open a new git bash.
 
 ```source .bashrc```
+ ###Configure Applications to Always Run as an Administrator
+ 
+ 1. On the Start menu, locate the program that you want to always run as an administrator. 
+ 2. Right-click the application’s shortcut, and then click Properties. 
+ 3. In the Properties dialog box, click the Compatibility tab. 
+ 4. Do one of the following: 
+ 
+ To apply the setting to the currently logged-on user, select the Run This Program As An Administrator check box, and then click OK.
+ To apply the setting to all users on the computer and regardless of which shortcut is used to start the application, click Change Setting For All Users to display the Properties dialog box for the application’s .exe file, select the Run This Program As An Administrator check box, and then click OK twice.
 
 
 #Mac commands
