@@ -87,6 +87,11 @@ Finally source the file our open a new git bash.
  To apply the setting to the currently logged-on user, select the Run This Program As An Administrator check box, and then click OK.
  To apply the setting to all users on the computer and regardless of which shortcut is used to start the application, click Change Setting For All Users to display the Properties dialog box for the application’s .exe file, select the Run This Program As An Administrator check box, and then click OK twice.
 
+#Chrome
+
+Clear the chrome hosts file cache if changes in hosts file are not detected.
+```chrome://net-internals/#dns```
+click clear cache
 
 #Mac commands
 
