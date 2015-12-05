@@ -5,6 +5,10 @@ Most commonly used commands.
 # server-configurations
 A collection of commands which I used to configure server. Just for a backup and common place to look in future.
 
+
+# Step by step guide for Laravel forge
+https://mattstauffer.co/blog/getting-your-first-site-up-and-running-in-laravel-forge
+
 # Step by step guide to install first website on digital ocean with LEMP stack
 
 Insatll LEMP stack
