@@ -58,8 +58,9 @@ git commit -m "message"
 
 git status
 ```
+#Windows
 
-#gitbash windows
+###gitbash windows
 
 ```shell
 CLIP < filename #copeis the content of file to clipboard
@@ -95,6 +96,24 @@ Finally source the file our open a new git bash.
  
  To apply the setting to the currently logged-on user, select the Run This Program As An Administrator check box, and then click OK.
  To apply the setting to all users on the computer and regardless of which shortcut is used to start the application, click Change Setting For All Users to display the Properties dialog box for the application’s .exe file, select the Run This Program As An Administrator check box, and then click OK twice.
+
+###gitbash aliases
+
+```shell
+alias art='php artisan'
+alias edit='start'
+alias vg='cd ~/Homestead && vagrant up && vagrant ssh && cd Code'
+alias vgrl='vagrant reload --provision'
+alias als='vi ~/.bash_profile'
+alias h='cd ~'
+alias c='clear'
+alias bashrl='source ~/.bash_profile'
+alias bashedit='edit ~/.bash_profile'
+alias hostsedit='start C:/Windows/System32/drivers/etc/hosts'
+alias yamledit='edit ~/.homestead/Homestead.yaml'
+alias vgalsedit='edit ~/.homestead/aliases'
+alias forgessh='ssh -i "/c/Users/Hassaan/.ssh/filename" forge@IP -vvv'
+```
 
 #Chrome
 
