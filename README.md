@@ -11,6 +11,11 @@ Insatll LEMP stack
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
 https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04
 
+On mac
+```ssh -i "~/.ssh/id_sshex" root@104.236.90.57```
+On Windows
+```ssh -i "/c/Users/Hassaan/.ssh/id_sshex" root@104.236.90.57```
+
 #XAMPP
 add virtual hosts in xampp apache
 
