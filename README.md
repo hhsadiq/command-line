@@ -34,11 +34,6 @@ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/examp
 sudo rm /etc/nginx/sites-enabled/default
 ```
 
-الحمد للہ۔ آج تقریبا دو ہفتے کی محنت کے بعد میں پہلی ویب سائٹ کو لائیو کرسکا ہو۔
-
-5:59PM 17oct 2015
-Digital ocean droplet, from lemp stack to launch of first site.
-
 #Git
 
 ```shell
@@ -131,10 +126,37 @@ Exit vi mode and reload settings using this command
 . ~/.bash_profile
 ```
 
-###Alias collection
-Aliases in my mac
+###Add a path in $PATH
+
+Add the following line to the end of the file adding whatever additional directory you want in your path:
+```shell
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+```
+That example would add ~/.composer/vendor/bin to the PATH. The $PATH part is important as it appends the existing PATH to preserve it in the new value.
+
+###Strange quotes of textedit
+while editing bash_profile or path variable always use ' . The default textedit inserts ‘ which will cause errors. Similar is the case of double quotes.
+###bash_profile aliases
 
 ```shell
+alias sudo='sudo '
+alias su='su '
+alias art='php artisan'
+alias edit='open -a PhpStorm'
+alias vg='cd ~/Homestead && vagrant up && vagrant ssh && cd Code'
+alias vgrl='vagrant reload --provision'
+alias als='vi ~/.bash_profile'
+alias h='cd ~'
+alias bashrl='. ~/.bash_profile'
+alias bashedit='edit ~/.bash_profile'
+alias hostsedit='sudo vi /etc/hosts'
+alias yamledit='edit ~/.homestead/Homestead.yaml'
+alias vgalsedit='edit ~/.homestead/aliases'
+```
+
+###Generic aliases
+```shell
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 alias #listing of defined aliases
 unalias ALIAS_NAME #remove already defined alias
 alias vagrant='cd ~/Homestead && vagrant up && vagrant ssh && cd Code'
@@ -146,6 +168,20 @@ alias migrate='php artisan migrate'
 alias mc='php artisan make:controller'
 alias mms='php artisan make:migration:schema'
 alias edit='open -a TextEdit'
+```
+
+### ~/.homestead/aliases
+```shell
+alias ..="cd .."
+alias ...="cd ../.."
+alias h='cd ~'
+alias c='clear'
+alias art='php artisan'
+alias load=‘composer dump-autoload’
+alias artm=‘php artisan make’ 
+alias phpspec='vendor/bin/phpspec'
+alias phpunit='vendor/bin/phpunit'
+alias serve=serve-laravel
 ```
 
 ###Install homebrew
@@ -193,6 +229,7 @@ vagrant init #initialize vagrant in new directory
 vagrant up
 vagrant reload --provision #run this after updating yaml file
 vagrant ssh
+vagrant halt #This command shuts down the running machine Vagrant is managing
 php -i | grep php.ini #search file path in system
 ```
 Do not install npm and gulp on vagrant homestead, instead install it on local maching. The installation on vagrant does not work.
