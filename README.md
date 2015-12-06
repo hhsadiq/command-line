@@ -92,7 +92,7 @@ Finally source the file our open a new git bash.
 
 ```source .bash_profile```
 
- ###Configure Applications to Always Run as an Administrator
+###Configure Applications to Always Run as an Administrator
  
  1. On the Start menu, locate the program that you want to always run as an administrator. 
  2. Right-click the application’s shortcut, and then click Properties. 
