@@ -28,6 +28,17 @@ git commit -m "message"
 
 git status
 ```
+
+###Remove .idea repo from git
+
+```shell
+mv .idea ../.idea_backup
+rm .idea # in case you forgot to close your IDE
+git add .idea 
+git commit -m "Remove .idea from repo"
+mv ../.idea_backup .idea
+```
+
 #Windows
 
 ###gitbash windows
