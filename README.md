@@ -11,7 +11,7 @@ hosts
 
 virtual hosts file path
 
-```C:\xampp\apache\conf\extra\httpd-vhosts.conf```
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
 
 vritual hosts file settings
 
