@@ -6,6 +6,7 @@ Most commonly used commands.
 add virtual hosts in xampp apache
 
 hosts
+
 ```127.0.0.1 something.com```
 
 virtual hosts file path
