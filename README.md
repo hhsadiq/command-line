@@ -6,13 +6,20 @@ Most commonly used commands.
 add virtual hosts in xampp apache
 
 hosts
-127.0.0.1 something.com
+```127.0.0.1 something.com```
 
-C:\xampp\apache\conf\extra\httpd-vhosts.conf
+virtual hosts file path
+
+```C:\xampp\apache\conf\extra\httpd-vhosts.conf```
+
+vritual hosts file settings
+
+```shell
 <VirtualHost *:80>
     DocumentRoot "C:/xampp/htdocs/something"
     ServerName something.com
 </VirtualHost>
+```
 
 # Digital ocean
 
