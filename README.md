@@ -2,24 +2,6 @@
 
 Most commonly used commands.
 
-# server-configurations
-A collection of commands which I used to configure server. Just for a backup and common place to look in future.
-
-
-# Step by step guide for Laravel forge
-https://mattstauffer.co/blog/getting-your-first-site-up-and-running-in-laravel-forge
-
-# Step by step guide to install first website on digital ocean with LEMP stack
-
-Insatll LEMP stack
-https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
-https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04
-
-On mac
-```ssh -i "~/.ssh/id_sshex" root@104.236.90.57```
-On Windows
-```ssh -i "/c/Users/Hassaan/.ssh/id_sshex" root@104.236.90.57```
-
 #XAMPP
 add virtual hosts in xampp apache
 
@@ -305,3 +287,21 @@ bootrec /Fixmbr
 ```
 
 It will probably say that it couldn't find any windows systems but that's normal - it will be fixed. THIS WILL DELETE GRUB AND INSTALL WINDOWS BOOTLOADER!
+
+# server-configurations
+A collection of commands which I used to configure server. Just for a backup and common place to look in future.
+
+
+### Step by step guide for Laravel forge
+https://mattstauffer.co/blog/getting-your-first-site-up-and-running-in-laravel-forge
+
+### Step by step guide to install for digital ocean with LEMP stack
+
+Insatll LEMP stack
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
+https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04
+
+On mac
+```ssh -i "~/.ssh/id_sshex" root@104.236.90.57```
+On Windows
+```ssh -i "/c/Users/Hassaan/.ssh/id_sshex" root@104.236.90.57```
