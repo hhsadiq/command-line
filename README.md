@@ -70,7 +70,7 @@ CLIP < filename #copeis the content of file to clipboard
 
 When you open up your Git Bash, you should be by default in your home directory. Now create the .bashrc file (if on Win7 the file should be named .bash_profile.). If you're not in the home directory change into it with:
 
-```cd```
+```cd ~```
 You can create the file with:
 
 ```touch .bash_profile```
