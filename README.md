@@ -2,26 +2,6 @@
 
 Most commonly used commands.
 
-#XAMPP
-add virtual hosts in xampp apache
-
-hosts
-
-```127.0.0.1 something.com```
-
-virtual hosts file path
-
-C:\xampp\apache\conf\extra\httpd-vhosts.conf
-
-vritual hosts file settings
-
-```shell
-<VirtualHost *:80>
-    DocumentRoot "C:/xampp/htdocs/something"
-    ServerName something.com
-</VirtualHost>
-```
-
 # Digital ocean
 
 ```shell
@@ -295,6 +275,27 @@ bootrec /Fixmbr
 ```
 
 It will probably say that it couldn't find any windows systems but that's normal - it will be fixed. THIS WILL DELETE GRUB AND INSTALL WINDOWS BOOTLOADER!
+
+#XAMPP
+add virtual hosts in xampp apache
+
+hosts
+
+```127.0.0.1 something.com```
+
+virtual hosts file path
+
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
+
+vritual hosts file settings
+
+```shell
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/something"
+    ServerName something.com
+</VirtualHost>
+```
+
 
 # server-configurations
 A collection of commands which I used to configure server. Just for a backup and common place to look in future.
