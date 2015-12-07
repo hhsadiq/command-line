@@ -27,6 +27,8 @@ git add <directory>
 git commit -m "message"
 
 git status
+
+git status --ignored #check the ignored files
 ```
 
 ###Remove .idea repo from git
@@ -104,7 +106,9 @@ alias forgessh='ssh -i "/c/Users/Hassaan/.ssh/filename" forge@IP -vvv'
 #Chrome
 
 Clear the chrome hosts file cache if changes in hosts file are not detected.
+
 ```chrome://net-internals/#dns```
+
 click clear cache
 
 #Mac commands
@@ -129,6 +133,7 @@ To run a non-executable sh script, use:
 ```shell
 sh myscript
 ```
+
 To run a non-executable bash script, use:
 
 ```shell
