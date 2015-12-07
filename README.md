@@ -113,6 +113,14 @@ click clear cache
 
 #Mac commands
 
+###Sublime Text
+
+Open files and folders in same window in Sublime Text
+In Sublime Text Menu:
+Preferences ->  Settings - User
+Look for 'open_files_in_new_window'
+And change 'true' with 'false'
+
 ###Open file in editor
 ```shell
 open -a TextEdit #filename should do the trick.
