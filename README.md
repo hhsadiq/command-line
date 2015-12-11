@@ -1,7 +1,7 @@
 #One stop shop for my commands
 
 Most commonly used commands.
-
+I want to commit this
 # Digital ocean
 
 ```shell
@@ -136,7 +136,7 @@ Other relevant options
 ```
 
 ###run .sh file
-To run a non-executable sh script, use:
+To run a non-executable sh script, use: I want to commit this
 
 ```shell
 sh myscript
