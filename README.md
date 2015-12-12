@@ -43,6 +43,21 @@ mv ../.idea_backup .idea
 
 #Windows
 
+###Free port 80 for xampp
+
+Your port 80 is being used by the system.
+
+In Windows “World Wide Publishing" Service is using this port and it's process is system which PID is 4 maximum time and stopping this service(“World Wide Publishing") will free the port 80 and you can connect Apache using this port. To stop the service go to the “Task manager –> Services tab”, right click the “World Wide Publishing Service” and stop.
+If you don't find there then Then go to "Run > services.msc" and again find there and right click the “World Wide Publishing Service” and stop.Insha Allah that will work.
+If you didn't find “World Wide Publishing Service” there then go to "Run>>resmon.exe>> Network Tab>>Listening Ports" and see which process is using port 80 enter image description here
+And from "Overview>>CPU" just Right click on that process and click "End Process Tree". If that process is system that might be a critical issue.
+
+Also, try stopping "SQL Server Reporting Services (MSSQLSERVER)", that apparently defaults to 80. I did that and port 80 freed up. PID identified the culprit as "System", but apparently that System can mean multiple things.
+
+World Wide Web Publishing Service under running services.
+
+If port is used by Skype, chnage port of skype from settings
+
 ###gitbash windows
 
 ```shell
