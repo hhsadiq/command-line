@@ -1,7 +1,6 @@
 #One stop shop for my commands
 
 Most commonly used commands.
-I want to commit this
 # Digital ocean
 
 ```shell
@@ -29,6 +28,7 @@ git commit -m "message"
 git status
 
 git status --ignored #check the ignored files
+
 ```
 
 ###Remove .idea repo from git
@@ -136,7 +136,7 @@ Other relevant options
 ```
 
 ###run .sh file
-To run a non-executable sh script, use: I want to commit this
+To run a non-executable sh script, use:
 
 ```shell
 sh myscript
