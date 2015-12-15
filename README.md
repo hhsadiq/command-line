@@ -121,7 +121,9 @@ alias forgessh='ssh -i "/c/Users/Hassaan/.ssh/filename" forge@IP -vvv'
 #Chrome
 Clear the chrome hosts file cache if changes in hosts file are not detected.
 
-```chrome://net-internals/#dns```
+```shell
+chrome://net-internals/#dns
+```
 
 click clear cache
 
