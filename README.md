@@ -217,6 +217,12 @@ alias yamledit='edit ~/.homestead/Homestead.yaml'
 alias vgalsedit='edit ~/.homestead/aliases'
 ```
 
+###bash commands history
+
+```shell
+edit ~/.bash_history
+```
+
 ###Generic aliases
 ```shell
 export PATH="$HOME/.composer/vendor/bin:$PATH"
