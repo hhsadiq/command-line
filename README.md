@@ -1,6 +1,12 @@
 #One stop shop for my commands
 
 Most commonly used commands.
+#mongodb
+```shell
+./mongodump --host <host>:<port> --username <username> --password <password> --authenticationDatabase <dbCodeFromLiveHost> --db <dbCodeFromLiveHost>
+./mongorestore --host <host>:<port> --username <username> --password <password> --authenticationDatabase <dbCodeFromLiveHost> --db <dbCodeFromLiveHost> <dumpFolderPath>
+```
+
 # Digital ocean
 
 ```shell
