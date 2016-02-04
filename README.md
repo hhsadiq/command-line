@@ -16,6 +16,20 @@ These are the steps that solved my instance of this problem.
 `sudo meteor`
 sudo might not be necessary but it was the only way back into the app for me. Hope that saves someone a bit of time getting back up and running.
 
+`https://stackoverflow.com/questions/15610385/meteor-unexpected-mongo-exit-code-100`
+
+###Error with Future.js in Meteor Application
+   
+It seems to be unhappy about your build folder.
+
+I would stop your app, then just delete the build folder mentioned in the first line of the logged error
+
+`/Users/kishanpatel/Meteor/leaderboard/.meteor/local/build`
+and then restart meteor.
+
+It will simply recreate the build folder, probably without the problem you have right now.
+`https://stackoverflow.com/questions/30383596/error-with-future-js-in-meteor-application`
+
 # Digital ocean
 
 ```shell
