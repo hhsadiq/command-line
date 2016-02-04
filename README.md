@@ -389,3 +389,10 @@ On mac
 ```ssh -i "~/.ssh/id_sshex" root@104.236.90.57```
 On Windows
 ```ssh -i "/c/Users/Hassaan/.ssh/id_sshex" root@104.236.90.57```
+
+#Meteor
+when we build a slider from data we usually pass the ul/li to js and js code renders it and makes it slider
+coming to this page, when page was first time loaded, the data was inserted and then js was called so we got the vendors
+when we changed the city from top, the previous data was destroyed by meteor and new data was added (ul/li)
+but we were not calling the JS code of sliders that was the reason new data was visible in source code
+but was not complied into sliders
