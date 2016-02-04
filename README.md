@@ -7,6 +7,15 @@ Most commonly used commands.
 ./mongorestore --host <host>:<port> --username <username> --password <password> --authenticationDatabase <dbCodeFromLiveHost> --db <dbCodeFromLiveHost> <dumpFolderPath>
 ```
 
+###Meteor: Unexpected mongo exit code 100. Restarting.Can't start mongo server
+
+These are the steps that solved my instance of this problem.
+
+`Delete .meteor/local/db/mongod.lock`
+`Delete .meteor/local/db/journal/j.*(note: I only moved it just in case! ;D)`
+`sudo meteor`
+sudo might not be necessary but it was the only way back into the app for me. Hope that saves someone a bit of time getting back up and running.
+
 # Digital ocean
 
 ```shell
