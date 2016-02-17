@@ -405,14 +405,9 @@ Follow the steps to install it without errors.
 <ol>
 <li>Install Microsoft Visual Studio C++ 2013 for Windows Desktop (Express version works well)</li>
 <li>
-
 Run from windows cmd
-
-```shell
-call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x86
-call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x64
-```
-
+```call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x86```
+```call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x64```
 </li>
-<li>npm install --msvs_version=2013</li>
+<li>```npm install --msvs_version=2013```</li>
 </ol>
