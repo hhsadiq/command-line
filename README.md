@@ -1,6 +1,35 @@
 #One stop shop for my commands
 
 Most commonly used commands.
+#mongodb
+```shell
+./mongodump --host <host>:<port> --username <username> --password <password> --authenticationDatabase <dbCodeFromLiveHost> --db <dbCodeFromLiveHost>
+./mongorestore --host <host>:<port> --username <username> --password <password> --authenticationDatabase <dbCodeFromLiveHost> --db <dbCodeFromLiveHost> <dumpFolderPath>
+```
+
+###Meteor: Unexpected mongo exit code 100. Restarting.Can't start mongo server
+
+These are the steps that solved my instance of this problem.
+
+`Delete .meteor/local/db/mongod.lock`
+`Delete .meteor/local/db/journal/j.*(note: I only moved it just in case! ;D)`
+`sudo meteor`
+sudo might not be necessary but it was the only way back into the app for me. Hope that saves someone a bit of time getting back up and running.
+
+`https://stackoverflow.com/questions/15610385/meteor-unexpected-mongo-exit-code-100`
+
+###Error with Future.js in Meteor Application
+   
+It seems to be unhappy about your build folder.
+
+I would stop your app, then just delete the build folder mentioned in the first line of the logged error
+
+`/Users/kishanpatel/Meteor/leaderboard/.meteor/local/build`
+and then restart meteor.
+
+It will simply recreate the build folder, probably without the problem you have right now.
+`https://stackoverflow.com/questions/30383596/error-with-future-js-in-meteor-application`
+
 # Digital ocean
 
 ```shell
@@ -211,6 +240,12 @@ alias yamledit='edit ~/.homestead/Homestead.yaml'
 alias vgalsedit='edit ~/.homestead/aliases'
 ```
 
+###bash commands history
+
+```shell
+edit ~/.bash_history
+```
+
 ###Generic aliases
 ```shell
 export PATH="$HOME/.composer/vendor/bin:$PATH"
@@ -354,6 +389,13 @@ On mac
 ```ssh -i "~/.ssh/id_sshex" root@104.236.90.57```
 On Windows
 ```ssh -i "/c/Users/Hassaan/.ssh/id_sshex" root@104.236.90.57```
+
+#Meteor
+when we build a slider from data we usually pass the ul/li to js and js code renders it and makes it slider
+coming to this page, when page was first time loaded, the data was inserted and then js was called so we got the vendors
+when we changed the city from top, the previous data was destroyed by meteor and new data was added (ul/li)
+but we were not calling the JS code of sliders that was the reason new data was visible in source code
+but was not complied into sliders
 
 #Node-gyp installation
 
