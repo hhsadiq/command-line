@@ -354,3 +354,18 @@ On mac
 ```ssh -i "~/.ssh/id_sshex" root@104.236.90.57```
 On Windows
 ```ssh -i "/c/Users/Hassaan/.ssh/id_sshex" root@104.236.90.57```
+
+#Node-gyp installation
+
+The installation of node-gyp is a bit tricky. Usually we get build node-gyp rebuild errors.
+Follow the steps to install it without errors.
+
+<ol>
+<li>Install Microsoft Visual Studio C++ 2013 for Windows Desktop (Express version works well)</li>
+<li>
+Run from windows cmd
+```call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x86```
+```call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x64```
+</li>
+<li>npm install --msvs_version=2013</li>
+</ol>
